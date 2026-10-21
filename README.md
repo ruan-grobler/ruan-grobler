@@ -6,6 +6,8 @@ AI automation engineer in Cape Town, South Africa. I sit with the people who do 
 
 [Portfolio](https://portfolio.receva.co.za) · [Receva](https://receva.co.za) · [LinkedIn](https://www.linkedin.com/in/ruangrobler) · [ruan@receva.co.za](mailto:ruan@receva.co.za)
 
+**Latest (21 Oct 2026):** v1.0.0 releases of the six open source projects below, plus a [live eval report](https://ruan-grobler.github.io/voice-agent-evals/) for voice agent evals.
+
 ## What I build
 
 - **Power Platform.** Power Automate flows with approvals, error handling and custom connectors. Dataverse data models with security roles. Model driven and canvas apps, Power Pages sites and PCF controls.
