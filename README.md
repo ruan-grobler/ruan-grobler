@@ -6,7 +6,7 @@ AI automation engineer in Cape Town, South Africa. I sit with the people who do 
 
 [Portfolio](https://portfolio.receva.co.za) · [Receva](https://receva.co.za) · [LinkedIn](https://www.linkedin.com/in/ruangrobler) · [ruan@receva.co.za](mailto:ruan@receva.co.za)
 
-**Latest (21 Oct 2026):** v1.0.0 releases of the six open source projects below, plus a [live eval report](https://ruan-grobler.github.io/voice-agent-evals/) for voice agent evals.
+**Latest (21 Oct 2026):** v1.0 releases of the seven open source projects below, plus a [live eval report](https://ruan-grobler.github.io/voice-agent-evals/) for voice agent evals.
 
 ## What I build
 
@@ -22,6 +22,7 @@ AI automation engineer in Cape Town, South Africa. I sit with the people who do 
 | [**Lead to deal copilot**](https://github.com/ruan-grobler/lead-to-deal-copilot) | Leads from a web form, email or Slack become clean, deduplicated HubSpot deals that a person approves in Slack with one click. Slack, HubSpot and Claude, with fallbacks, retries and a dead letter replay | 25 synthetic leads through a HubSpot rate limit storm: 0 duplicate deals, 0 lost leads. 160 tests pass |
 | [**n8n missed call recovery**](https://github.com/ruan-grobler/n8n-missed-call-recovery) | A free n8n kit that texts every missed caller a booking link, respects opt outs and quiet hours, and sends a daily report | A synthetic day of 40 missed calls: 32 links sent, 0 double texts, 0 texts after an opt out. 15 of 15 checks pass in real n8n in Docker |
 | [**Voice agent evals**](https://github.com/ruan-grobler/voice-agent-evals) | Regression tests for AI receptionists: 15 caller scenarios, code checks plus an LLM judge, and a CI gate | On 15 scripted calls the weak prompt passes 0 and the fixed prompt passes 15, and the gate blocks the regression. 172 tests pass |
+| [**Grounded answers**](https://github.com/ruan-grobler/grounded-answers) | A policy and SOP assistant over a fictional dental practice's documents: hybrid search with a vector store, a citation for every claim, and a refusal when the answer is not there | On a 50 question eval vs naive retrieval: personal data leaks 4 to 0 and must refuse questions 73% to 100%, every citation quote verified. Model answers are scripted for now, see the README |
 | [**Campaign brief agent**](https://github.com/ruan-grobler/campaign-brief-agent) | Claude agents turn a marketing brief into an Asana ready launch plan. A checker attacks the plan and a person approves by exception | 5 of 5 synthetic briefs pass all 28 rubric checks, and a planted prompt injection is caught |
 | [**Parallel browser MCP**](https://github.com/ruan-grobler/parallel-browser-mcp) | Gives AI agents many isolated browser sessions at once, so web tasks run side by side instead of one tab at a time | 8 slow pages: 22.9 s one at a time, 6.4 s with 4 sessions in parallel |
 | [**Power Platform proof**](https://github.com/ruan-grobler/power-platform-proof) | A PCF control that turns a due date into a live SLA countdown, and a Power Pages site for a fictional clinic where patients request appointments with POPIA consent | 114 automated tests pass and both projects build clean |
